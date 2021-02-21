@@ -1,0 +1,22 @@
+p {
+    color: rgba(187, 44, 206, 0.438);
+}   
+section {
+    height: 50%;
+}
+div {
+    height: 300px;
+    width: 300px;
+
+    border-style: double;
+    border-width: 10px;
+    border-top-color: lightpink;
+    border-right-color: purple;
+    
+    
+    
+padding: 50px 60px 70px 80px;
+margin: 50px;
+
+
+}

@@ -1,4 +1,4 @@
-p {
+ /* p {
     color: rgba(187, 44, 206, 0.438);
 }   
 section {
@@ -19,4 +19,59 @@ padding: 50px 60px 70px 80px;
 margin: 50px;
 
 
+}  */
+
+/* .demo {
+    height: 300px;
+    width: 300px;
+    background-color: black;
+    color:cornsilk;
+    font-size: 20px;
+    transform:translate(21px, 20px)
+    transition: all 0.2s linear 0s;
 }
+
+.demo:hover {
+    transform: rotate(180deg);
+    background-color: pink;
+    
+}  */
+
+.rotate-tr {
+    height: 300px;
+    width: 300px;
+    background-color: black;
+	-webkit-animation: rotate-tr 0.5s cubic-bezier(0.455, 0.030, 0.515, 0.955) infinite both;
+	        animation: rotate-tr 0.5s cubic-bezier(0.455, 0.030, 0.515, 0.955) infinite both;
+}
+
+
+ @-webkit-keyframes rotate-tr {
+    0% {
+      -webkit-transform: rotate(0);
+              transform: rotate(0);
+      -webkit-transform-origin: top right;
+              transform-origin: top right;
+    }
+    100% {
+      -webkit-transform: rotate(360deg);
+              transform: rotate(360deg);
+      -webkit-transform-origin: top right;
+              transform-origin: top right;
+    }
+  }
+  @keyframes rotate-tr {
+    0% {
+      -webkit-transform: rotate(0);
+              transform: rotate(0);
+      -webkit-transform-origin: top right;
+              transform-origin: top right;
+    }
+    100% {
+      -webkit-transform: rotate(360deg);
+              transform: rotate(360deg);
+      -webkit-transform-origin: top right;
+              transform-origin: top right;
+    }
+  }
+  
